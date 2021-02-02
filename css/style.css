@@ -1,0 +1,66 @@
+body, html {
+  	font-family: Sans-serif	;
+  	height: 100%;
+  	font-size: 14px;
+}
+.parallax{
+  /* Full height */
+	height: 100%; 
+	opacity: 0.6;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.poppin {
+	background-image: url('../imgs/poppin.png');
+}
+
+.afterglow {
+	background-image: url('../imgs/afterglow.png');
+}
+
+.titlebar{
+  	position: relative;
+  	left: 0;
+  	top: 50%;
+  	width: 100%;
+  	text-align: center;
+  	color: #000;
+}
+.titlebar .span1{
+	background-color: #000000;
+  	color: #ffffff;
+  	padding: 18px 5% 18px 5%;
+  	font-size: 25px;
+  	letter-spacing: 9px;
+  	border-radius: 9px;
+  	transition: 1s;
+}
+
+.titlebar .span1:hover{
+	transition: 1s;
+	padding: 18px 10% 18px 10%;
+	letter-spacing: 11px;
+}
+
+
+.paragraph1{
+	background-color: #000000;
+	margin: 0px 0px 0px 0px;
+	padding: 2px;
+	width: 100%;
+
+}
+
+.paragraph1 .content{
+	text-align: left;
+	padding: 10px;
+	margin: 2% 2% 2% 2%;
+  	background-color: #111111;
+  	border-left: 6px solid #ff4dff;
+  	color:#ffffff;
+  	font-size: 1.1rem;
+}
