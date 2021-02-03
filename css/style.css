@@ -92,5 +92,29 @@ body, html {
 
 .footer{
 	background-color: black;
-	height: 25%;
+	border-bottom: 20px solid #666666;
+	height: 15%;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+
+.footer span{
+	display: inline-block;
+	position: relative;
+	left: 0;
+	top:15%;
+	border-radius: 2px;
+	border: 2px solid #ffffff;
+	padding: 8px;
+}
+
+.footer span:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #66ccff;
 }
