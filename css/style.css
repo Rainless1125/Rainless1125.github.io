@@ -12,7 +12,7 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	width: 100%;
 }
 .poppin {
 	background-image: url('../imgs/poppin.png');
@@ -20,6 +20,26 @@ body, html {
 
 .afterglow {
 	background-image: url('../imgs/afterglow.png');
+}
+
+.pastel{
+	background-image: url('../imgs/Pastel.png');
+}
+
+.roselia{
+	background-image: url('../imgs/roselia.jpg');
+}
+
+.hellohappyworld{
+	background-image: url('../imgs/hellohappyworld.jpg');
+}
+
+.morfonica{
+	background-image: url('../imgs/Morfonica.png');
+}
+
+.raise{
+	background-image: url('../imgs/raise.jpg');
 }
 
 .titlebar{
@@ -38,21 +58,25 @@ body, html {
   	letter-spacing: 9px;
   	border-radius: 9px;
   	transition: 1s;
+
 }
 
 .titlebar .span1:hover{
+	background-color: #222222;
 	transition: 1s;
+	border-left: 8px solid red;
+	border-right: 8px solid red;
 	padding: 18px 10% 18px 10%;
 	letter-spacing: 11px;
 }
 
 
 .paragraph1{
-	background-color: #000000;
+	background-image: url('../imgs/content_back.png');
+	opacity: 0.9;
 	margin: 0px 0px 0px 0px;
 	padding: 2px;
 	width: 100%;
-
 }
 
 .paragraph1 .content{
@@ -63,4 +87,10 @@ body, html {
   	border-left: 6px solid #ff4dff;
   	color:#ffffff;
   	font-size: 1.1rem;
+}
+
+
+.footer{
+	background-color: black;
+	height: 25%;
 }
