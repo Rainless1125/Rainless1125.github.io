@@ -2,6 +2,7 @@ body, html {
   	font-family: Sans-serif	;
   	height: 100%;
   	font-size: 14px;
+  	margin: 0%;
 }
 .parallax{
   /* Full height */
@@ -52,7 +53,7 @@ body, html {
   	position: relative;
   	left: 0;
   	top: 50%;
-  	width: 100%;
+  	width: auto;
   	text-align: center;
   	color: #000;
 }
@@ -82,7 +83,7 @@ body, html {
 	opacity: 0.9;
 	margin: 0px 0px 0px 0px;
 	padding: 2px;
-	width: 100%;
+	width: auto;
 }
 
 .paragraph1 .content{
@@ -133,4 +134,21 @@ body, html {
 	border-radius: 3px;
 	padding: 8px 12px 8px 12px;
 	cursor: pointer;
+}
+
+.header{
+	height: 100px;
+	width: 100%;
+	background-color: #333333;
+}
+
+.header img{
+	height: 100%;
+	width: 280px;
+	float: left;
+}
+
+.header a{
+	float: left;
+	padding: 40px 0px;
 }
