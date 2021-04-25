@@ -22,7 +22,7 @@ body, html {
 	opacity: 0.9;
 }
 .poppin {
-	background-image: url('../imgs/poppin.png');
+	background-image: url('../imgs/poppin.jpg');
 }
 
 .afterglow {
@@ -42,11 +42,11 @@ body, html {
 }
 
 .morfonica{
-	background-image: url('../imgs/Morfonica.png');
+	background-image: url('../imgs/Morfonica.jpg');
 }
 
 .raise{
-	background-image: url('../imgs/raise.jpg');
+	background-image: url('../imgs/raise2.jpg');
 }
 
 .titlebar{
