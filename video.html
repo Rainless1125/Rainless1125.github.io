@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* Reset CSS */
+        *{
+        margin:0;
+        padding:0;
+        /* Google font 字體 */
+        font-family: 'Poppins', sans-serif;
+        }
+        .banner{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        }
+        .banner video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        object-fit: cover;
+        opacity: 0.6;
+        }
+        .banner span{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+            font-size: 18vw;
+            text-align: center;
+            font-weight:bold;
+            line-height:100vh;
+            /* 字全大寫 */
+            text-transform:uppercase;
+            mix-blend-mode: screen;
+        }
+    </style>
+
+    <div class="banner">
+        <video autoplay muted loop>
+            <source src="muli.mp4" type="video/mp4">
+        </video>
+        <span>阿姆阿姆</span>
+    </div>
+
+</body>
+</html>
